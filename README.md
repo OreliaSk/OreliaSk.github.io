@@ -1,4 +1,7 @@
-﻿# username
+﻿---
+permalink: index.html
+--- 
+# username
 OreliaSk
 
 ## Qui suis-je ?
