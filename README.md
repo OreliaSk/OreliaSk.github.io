@@ -37,4 +37,5 @@ du code.
 Mon projet professionnel serait de travailler au sein d'une entreprise, de préférence à taille humaine, de type start-up 
 et participer à la mise en place d'un projet motivant et stimulant. 
 Avoir la possibilité d'apprendre de nouvelles technologies et de me maintenir à jour. 
-[Me contacter](burger-form/contact.html)
+
+[Me contacter](contact.html)
