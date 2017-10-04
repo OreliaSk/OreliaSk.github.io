@@ -32,7 +32,8 @@ input{
 
 .button {
   font-size: 1.2em;
-  background-color: #AAC2EB
+  background-color: #AAC2EB;
+  cursor: pointer;
 }
 
 /* Set the maximum width of your burger */
