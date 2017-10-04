@@ -8,47 +8,54 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--[if IE]>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<![endif]-->
+	<![endif]--> 
 	<link rel="stylesheet" href="contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<title>Burger-form</title>
 </head>
 <body>
 	<form method="POST" action="https://formspree.io/orelia.sokambi@gmail.com">
-		<div class="burger">
-		   	<div class="bun-top">
+		<main class="burger">
+		   	<section class="bun-top">
 		        <label for="surname" class="cheese">Votre Nom</label><br/>
 		        <input type="text" name="surname">
-		      </div>
-		    <div class="cheese">
-		        <label for="name">Votre prénom</label>
-		    </div>
-		    <div class="tomato">
-		        <input type="text" name="firstName">
-		    </div>
-		    <div class="cheese">
-		        <label for="mail">Votre email</label>
-		    </div>
-		    <div class="cheese">
-		        <input type="text" required name="email">
-		    </div>
-		    <div class="cheese">
-		    </div>
-		    <div class="onion">
-		    </div>
+		    </section>
 
-		    <div class="pickle"></div>
-		    <div class="patty">
+		    <section class="cheese">
+		        <label for="name">Votre prénom</label>
+		    </section>
+
+		    <section class="tomato">
+		        <input type="text" name="firstName">
+		    </section>
+
+		    <section class="cheese">
+		        <label for="mail">Votre email</label>
+		    </section>
+
+		    <section class="cheese">
+		        <input type="text" required name="email">
+		    </section>
+
+		    <section class="cheese"></section>
+		    <section class="onion"></section>
+
+		    <section class="pickle"></section>
+		    <section class="patty">
 		        <label>Acceptez-vous de recevoir une newsletter ?</label>
-		    </div>
-		    <div class="patty">
+		    </section>
+
+		    <section class="patty">
 		        <input type="checkbox" name="yes" id="yes" /> <label for="yes">Oui</label>
 		        <input type="checkbox" name="no" id="no" /><label for="no">Non</label>
-		    </div>
-		    <div class="bun-bottom">
-		        <input type="submit" name="_next" value="Envoyer">
-		   </div>
-		   <div class="plate"></div>
-		</div>
+		    </section>
+
+		    <section class="bun-bottom">
+		        <input type="submit" name="_next" value="Envoyer" class="button">
+		   </section>
+
+		   <section class="plate"></section>
+		</main>
 	</form>
 </body>
 </html>
