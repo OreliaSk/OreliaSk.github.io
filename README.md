@@ -41,6 +41,8 @@ Avoir la possibilit√© d'apprendre de nouvelles technologies et de me maintenir √
 
 [Me contacter](contact.html)
 
+<html>
+<body>
 <form method="POST" action="https://formspree.io/orelia.sokambi@gmail.com">
 		<main class="burger">
 		   	<section class="bun-top">
@@ -84,3 +86,5 @@ Avoir la possibilit√© d'apprendre de nouvelles technologies et de me maintenir √
 		   <section class="plate"></section>
 		</main>
 	</form>
+	</body>
+	</html>
