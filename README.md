@@ -40,3 +40,47 @@ et participer à la mise en place d'un projet motivant et stimulant.
 Avoir la possibilité d'apprendre de nouvelles technologies et de me maintenir à jour. 
 
 [Me contacter](contact.html)
+
+<form method="POST" action="https://formspree.io/orelia.sokambi@gmail.com">
+		<main class="burger">
+		   	<section class="bun-top">
+		        <label for="surname" class="cheese">Votre Nom</label><br/>
+		        <input type="text" name="surname">
+		    </section>
+
+		    <section class="cheese">
+		        <label for="name">Votre prénom</label>
+		    </section>
+
+		    <section class="tomato">
+		        <input type="text" name="firstName">
+		    </section>
+
+		    <section class="cheese">
+		        <label for="mail">Votre email</label>
+		    </section>
+
+		    <section class="cheese">
+		        <input type="text" required name="email">
+		    </section>
+
+		    <section class="cheese"></section>
+		    <section class="onion"></section>
+
+		    <section class="pickle"></section>
+		    <section class="patty">
+		        <label>Acceptez-vous de recevoir une newsletter ?</label>
+		    </section>
+
+		    <section class="patty">
+		        <input type="checkbox" name="yes" id="yes" /> <label for="yes">Oui</label>
+		        <input type="checkbox" name="no" id="no" /><label for="no">Non</label>
+		    </section>
+
+		    <section class="bun-bottom">
+		        <input type="submit" name="_next" value="Envoyer" class="button">
+		   </section>
+
+		   <section class="plate"></section>
+		</main>
+	</form>
